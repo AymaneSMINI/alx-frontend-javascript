@@ -1,8 +1,7 @@
 export default function getBudgetObject(income, gdp, capita) {
-    return {
+  return {
       income,
       gdp,
       capita,
-    };
-  
-  }
+  };  
+}
