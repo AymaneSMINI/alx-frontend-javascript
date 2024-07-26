@@ -19,6 +19,7 @@ module.exports = {
     },
     plugins: ['jest'],
     rules: {
+      "camelcase": ["error", {"allow": ["aa_bb"]}],
       'no-console': 'off',
       'no-shadow': 'off',
       'no-restricted-syntax': [
